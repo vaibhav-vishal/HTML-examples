@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Wok Inc.</title>
+<link href="css/Styles.css" type="text/css" rel="stylesheet"></link>
+<link href="css/Style2.css" type="text/css" rel="stylesheet"></link>
+</head>
+<body>
+	<header>
+		<div id="hdLeft">
+			<img alt="LOGO" src="images/wok.jpg">
+		</div>
+		<div id="hdRight" align="center">
+			<h1>Welcome to WOK</h1>
+		</div>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Book.html">Book</a></li>
+			<li><a href="Order.html">Order</a></li>
+			<li><a href="Review.html">Review</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<form method="post">
+			<table>
+				<tr>
+					<td><label>Username</label></td>
+					<td><input type="text" name="userName" required="required" placeholder="UserName"></td>
+				</tr>
+			
+				<tr>
+					<td><label>Password</label></td>
+					<td><input type="password" name="passWord" required="required" placeholder="8 or more alphanumeric char"></td>
+				</tr>
+				
+				<tr>
+					<td><label>Role</label></td>
+					<td>
+					<select name="role">
+						<option value="ADM">Administrator</option>
+						<option value="CHF">Chef</option>
+						<option value="WTR">Waiter</option>
+						<option value="MGR">Manager</option>	
+					</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2"><input type="submit" value="Login"></td>
+				</tr>
+			</table>
+		</form>	
+	</section>
+</body>
+</html>
